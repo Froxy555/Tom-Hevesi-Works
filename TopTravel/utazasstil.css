@@ -1,0 +1,38 @@
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(hatter.png); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.32; 
+    background-attachment: fixed;  
+    background-repeat: no-repeat; 
+    background-position: center bottom; 
+}
+.rounded-lg {
+    border-radius: 1rem !important;
+  }
+  
+  .text-small {
+    font-size: 0.9rem !important;
+  }
+  
+  .custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.2em;
+  }
+  
+  .row {
+    margin: 15px;
+  }
+  

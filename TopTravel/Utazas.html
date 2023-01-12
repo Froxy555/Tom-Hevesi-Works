@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="utazasstil.css">
+  <title>Top Trips</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="logo.png" alt="logo" width="80" height="80">
+    <h1 class="display-5 fw-bold">Top Trips Utazási Iroda</h1>
+    <div class="col-lg-8 mx-auto">
+      <p class="lead mb-10"><strong>A Top Trips Utazási Iroda Kft. 2022-ben alakult. A 100%-os magyar tulajdonban lévő
+          cég Mátészalkán, frekventált helyen, a belváros szívében működik nagy létszámú együtt dolgozó csapattal.
+          Munkatársaink magas szintű szakmai ismerettel, angol és német nyelvtudással igyekeznek minden kedves betérő
+          érdeklődő segítségére lenni.</strong></p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3" id="utazas">Utazások</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4" href="#kapcs">Kapcsolatok</button>
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom" href="#utazas">Utazásaink Európaszerte</h2>
+  </div>
+  <div class="container marketing">
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="d-block mx-auto mb-4" src="gorog.jpg" alt="gorog" width="80" height="54">
+        <h2 class="fw-normal">Görögország</h2>
+        <p>Görögországot, amely a nyugati kultúra bölcsőjeként mindig is az igényes, kultúra iránt érdeklődő utazók
+          klasszikus célpontja volt, az utóbbi időben már mint igen vonzó nyaralóhelyet is felfedezték a turisták. Már
+          nemcsak az európai kulturális és szellemi élet gyökereihez visszavezető ókori helyszínek vonzzák a
+          külföldieket, hanem a fantasztikus táj, a szigetvilág mediterrán bája, a görög emberek vendégszeretete,
+          valamint a számos kiváló strand is..</p>
+        <p><a class="btn btn-secondary" href="#gorog">Jegy foglalás »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="d-block mx-auto mb-4" src="spanyol.jpg" alt="spanyol" width="80" height="54">
+        <h2 class="fw-normal">Spanyolország</h2>
+        <p>Spanyolország turisztikai népszerűsége nem szorul hosszú magyarázatra: az Atlanti-óceán és a Fölközi-tenger
+          által körülölelt szárazföld és a számos kisebb-nagyobb sziget összesen majdnem 5000 km hosszú tenger- illetve
+          óceánparttal rendelkezik. A Spanyolországhoz tartozó tengerpartok közül szinte mindenki megtalálhatja azt,
+          amelyik a leginkább megfelel igényeinek. Homokos strandot keres? Ne habozzon tovább, válasszon bátran minket.
+        </p>
+        <p><a class="btn btn-secondary" href="#spanyol">Jegy foglalás »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="d-block mx-auto mb-4" src="horvat.JPG" alt="horvat" width="90" height="54">
+        <h2 class="fw-normal">Horvátország</h2>
+        <p>Horvátország partvonala, csodálatos öblei és szigetei a Földközi-tenger legcsodálatosabb területei közé
+          tartoznak. Az itt élőknek az idegenforgalom a legfőbb bevételi forrása. Számos, különleges, tengeri
+          ínyencséget ajánló hangulatos kisvendéglő barátságos kiszolgálással várja a vendégeket. Rövid utazással egy
+          egészen más világba csöppenhetünk: mediterrán mentalitás, melengető éghajlat, csodálatos szigetek, csillogó
+          tenger és szikrázó napfény - ez Horvátország.</p>
+        <p><a class="btn btn-secondary" href="#horvath">Jegy foglalás »</a></p>
+      </div>
+    </div>
+    <div class="row text-center align-items-end">
+      <hr class="featurette-divider">
+      <h1 class="display-5 fw-bold" id="gorog">Görögország</h1>
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Elena stúdiók - Korfu, Moraitika</h1>
+          <h2 class="h1 font-weight-bold">121 280 Ft-tól<span class="text-small font-weight-normal ml-2"></span></h2>
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Min. 2, max. 4 fős apartmanok
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Tengerpart: 400 méteren belül
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Ellátás: önellátás, reggeli, félpanzió
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Hossz: 8 nap / 7 éj vagy 10 nap / 9 éj
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Oda/vissza utazás
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Utazás</a>
+        </div>
+      </div>
+      <div class="col-md-7 row justify-content-center align-self-center">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted"></span></h2>
+        <p class="lead">
+        <div class="field-item even">
+          <p><strong>Fekvése:</strong><br>
+            A szálloda Korfu keleti partján, Messonghi településen&nbsp;található, kb. 22 km-re a repülőtértől,
+            közvetlenül a&nbsp;homokos-aprókavicsos tengerparton. A szálloda közelében bárok, éttermek, boltok
+            találhatók.</p>
+          <p><strong>Szobák:</strong><br>
+            Kertre/tengerre néző superior szoba: A superior szobák mindegyike erkéllyel kialakított. Légkondicionálóval,
+            tv-vel, mini hűtővel, fürdőszobával, és hajszárítóval felszerelt. Wifi internet kapcsolat térítés ellenében.
+            Maximum 3 fő részére foglalható.</p>
+          <p>Superior családi szoba: A superior családi szobák mindegyike erkéllyel, a gyerekek számára emeletese ággyal
+            kialakított. Légkondicionálóval, tv-vel, mini hűtővel, fürdőszobával, és hajszárítóval felszerelt. Maximum 4
+            fő részére foglalható.&nbsp;</p>
+          <p><strong>Ellátás:</strong><br>
+            All inclusive: reggeli, ebéd, vacsora, napközben tea, kávé, és snack a kijelölt helyeken a meghatározottot
+            időben.&nbsp;</p>
+          <p><strong>Szolgáltatások:</strong><br>
+            24 órás recepció, két kültéri gyermekrésszel kialakított medence, vízi csúszdák (téríts ellenében),
+            játszótér, ingyenes parkolás, wifi internetelérése (térítés ellenében), étterem, bárok, wellness központ
+            (térítés ellenében), a napernyők és napágyak használata a tengerparton térítés ellenében vehetőek
+            igénybe.&nbsp;</p>
+        </div>
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <a href="corfu1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="corfu1.jpg" class="img-fluid rounded">
+          </a>
+          <a href="corfu2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="corfu2.jpg" width="1024" height="623" class="img-fluid rounded">
+          </a>
+          <a href="corfu3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="corfu3.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+        <div class="row">
+          <a href="corfu8.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="corfu8.jpg" class="img-fluid rounded">
+          </a>
+          <a href="corfu5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="corfu5.jpg" class="img-fluid rounded">
+          </a>
+          <a href="corfu6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="corfu6.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="col-md-7 row justify-content-center align-self-center">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted"></span></h2>
+        <p class="lead">
+        <div class="field-item even">
+          <p><strong>Szállás leírása</strong><br>
+            A laganasi öbölben, a sziget leghosszabb, egybefüggő, széles, homokos tengerpartján fekszik. A háromszintes
+            főépületből és kerti/partmenti blokkból álló barátságos, tengerparti szálloda az üdülőváros csendesebb
+            részén fekszik. Laganas főutcája egy rövid sétával elérhető. A hoteltől 40 méterre bolt található. A
+            repülőtér 7 km-re fekszik.&nbsp;</p>
+          <p><strong>Szobák</strong><br>
+            Kétágyas szobák belső/utcai vagy tengeri kilátással rendelkeznek, nem pótágyazhatóak. Minden szobatípus a
+            recepció feletti főépületben helyezkedik el. Valamennyi szoba erkélyes, légkondicionáló, hűtőszekrény
+            (esetenként kis konyhasarok), televízió, széf tartozik a szobához. A fürdőszoba zuhanyzós, törölközővel és
+            hajszárítóval van felszerelve. A szobák 2018-ban lettek felújítva.</p>
+          <p><strong>Étkezés</strong><br>
+            Félpanzió, reggeli és vacsora büférendszerben a teraszos étteremben, amely a főépületben található a medence
+            mellett. A hotel tengerparti éttermében a ´la carte ebédet lehet fogyasztani.</p>
+          <p><strong>Tengerpart</strong><br>
+            A hotel mellett keskeny homoksáv húzódik, Laganas központi strandja 80 méterre kezdődik. A parton napágyak
+            és napernyők bérelhetők.</p>
+        </div>
+        </p>
+      </div>
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Denise Beach Hotel - Zakynthos, Laganas</h1>
+          <h2 class="h1 font-weight-bold">252 935 Ft-tól<span class="text-small font-weight-normal ml-2"></span></h2>
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Min. 4, max. 6 fős apartmanok
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Tengerpart: közvetlen a szálloda mellett
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Ellátás: Reggel, ebéd biztosítás
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Hossz: 8 nap / 7 éj
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Hajóz utazás
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Utazás</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <a href="zaky1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="zaky1.jpg" class="img-fluid rounded">
+          </a>
+          <a href="zaky2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="zaky2.jpg" width="1024" height="623" class="img-fluid rounded">
+          </a>
+          <a href="zaky3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="zaky3.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+        <div class="row">
+          <a href="zaky4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="zaky4.jpg" class="img-fluid rounded">
+          </a>
+          <a href="zaky5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="zaky5.jpg" class="img-fluid rounded">
+          </a>
+          <a href="zaky6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="zaky6.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Mitsis Lindos Memories Resort & Spa Hotel - Rodosz, Lindos
+          </h1>
+          <h2 class="h1 font-weight-bold">395 522 Ft-tól<span class="text-small font-weight-normal ml-2"></span></h2>
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Családi szoba elérhető
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Közvetlenül a tengerparton
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Ellátás: önellátás, reggeli, félpanzió
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Teljes étkeztetés
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Hossz: 5-9 éjszakás turnusok
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Utazás</a>
+        </div>
+      </div>
+      <div class="col-md-7 row justify-content-center align-self-center">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted"></span></h2>
+        <p class="lead">
+        <div class="field-item even">
+          <p><strong>Fekvése:</strong><br>
+            A hotel közvetlen a tengerparton fekszik, 50 kilométerre a repülőtértől, 1.5 kilométerre Lindostól és 45
+            kilométerre Rodosz városától. A legközelebbi buszmegálló 200 méterre található a szállodától.</p>
+          <p><strong>Szobák:</strong><br>
+            Kertre/tengerre néző superior szoba: A superior szobák mindegyike erkéllyel kialakított. Légkondicionálóval,
+            tv-vel, mini hűtővel, fürdőszobával, és hajszárítóval felszerelt. Wifi internet kapcsolat térítés ellenében.
+            Maximum 3 fő részére foglalható.</p>
+          <p>Superior családi szoba: A superior családi szobák mindegyike erkéllyel, a gyerekek számára emeletese ággyal
+            kialakított. Légkondicionálóval, tv-vel, mini hűtővel, fürdőszobával, és hajszárítóval felszerelt. Maximum 4
+            fő részére foglalható.&nbsp;</p>
+          <p><strong>Ellátás:</strong><br>
+            All inclusive: reggeli, ebéd, vacsora, napközben tea, kávé, és snack a kijelölt helyeken a meghatározottot
+            időben.&nbsp;</p>
+          <p><strong>Szolgáltatások:</strong><br>
+            24 órás recepció, porta, ingyenes Wifi kapcsolat (gyorsabb hálózat felár ellenében), légkondicionálás/fűtés
+            a hotel teljes területén, ATM, törölközők térítésmentesen, autó/motor/bicikli kölcsönzés (felár ellenében),
+            központi széf, laptop/tablet (kérésre), mosoda (felár ellenében), orvosi ellátás (felár ellenében), mini
+            market, telefon és fax szolgáltatások, televízió szoba, ébresztés.</p>
+        </div>
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <a href="rodosz1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="rodosz1.jpg" class="img-fluid rounded">
+          </a>
+          <a href="rodosz2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="rodosz2.jpg" width="1024" height="623" class="img-fluid rounded">
+          </a>
+          <a href="rodosz3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="rodosz3.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+        <div class="row">
+          <a href="rodosz4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="rodosz4.jpg" class="img-fluid rounded">
+          </a>
+          <a href="rodosz5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="rodosz5.jpg" class="img-fluid rounded">
+          </a>
+          <a href="rodosz6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="rodosz6.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center align-items-end">
+      <hr class="featurette-divider">
+      <h1 class="display-5 fw-bold" id="spanyol">Spanyolország</h1>
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Hotel del Mar - Barcelona</h1>
+          <h2 class="h1 font-weight-bold">176 146 Ft-tól<span class="text-small font-weight-normal ml-2"></span></h2>
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Min. 2 fő
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Remek nagyvárosi rálátás
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Ellátás: önellátás, reggeli, félpanzió
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Hossz: 4 nap / 3 éj
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Welness, Jaccussi, Szauna
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Utazás</a>
+        </div>
+      </div>
+      <div class="col-md-7 row justify-content-center align-self-center">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted"></span></h2>
+        <p class="lead">
+        <div class="field-item even">
+          <p><strong>Hotel leírás:</strong><br>
+            A háromcsillagos szálloda Barcelona kikötője közelében található a csodás Ciutadella park szomszédságában. A
+            legközelebbi metrómegálló (Barceloneta) kb. 150 méterre található, ahonnan könnyen bejuthatunk a
+            városközpontba. A hotel tökéletes kiindulópont a város felfedezéséhez.</p>
+          <p><strong>Szobák:</strong><br>
+            A kétágyas szobák fürdőszobásak, hajszárítóval és piperecikkekkel felszereltek. A vendégek részére ingyenes
+            Wi-Fi áll rendelkezésre. A kényelmet légkondicionáló, széf és TV biztosítja.</p>
+          <p><strong>Ellátás:</strong><br>
+            reggeli a kijelölt helyeken a meghatározottot időben.&nbsp;</p>
+          <p><strong>Szolgáltatások:</strong><br>
+            24 órás recepció, két kültéri gyermekrésszel kialakított medence, vízi csúszdák (téríts ellenében),
+            játszótér, ingyenes parkolás, wifi internetelérése (térítés ellenében), étterem, bárok, wellness központ
+            (térítés ellenében), a napernyők és napágyak használata a tengerparton térítés ellenében vehetőek
+            igénybe.&nbsp;</p>
+        </div>
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <a href="barcelona6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="barcelona6.jpg" class="img-fluid rounded">
+          </a>
+          <a href="barcelona1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="barcelona1.jpg" width="1024" height="623" class="img-fluid rounded">
+          </a>
+          <a href="barcelona2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="barcelona2.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+        <div class="row">
+          <a href="barcelona3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="barcelona3.jpg" class="img-fluid rounded">
+          </a>
+          <a href="barcelona4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="barcelona4.jpg" class="img-fluid rounded">
+          </a>
+          <a href="barcelona5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="barcelona5.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="col-md-7 row justify-content-center align-self-center">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted"></span></h2>
+        <p class="lead">
+        <div class="field-item even">
+          <p><strong>Szállás leírása</strong><br>
+            A laganasi öbölben, a sziget leghosszabb, egybefüggő, széles, homokos tengerpartján fekszik. A háromszintes
+            főépületből és kerti/partmenti blokkból álló barátságos, tengerparti szálloda az üdülőváros csendesebb
+            részén fekszik. Laganas főutcája egy rövid sétával elérhető. A hoteltől 40 méterre bolt található. A
+            repülőtér 7 km-re fekszik.&nbsp;</p>
+          <p><strong>Szobák</strong><br>
+            Kétágyas szobák belső/utcai vagy tengeri kilátással rendelkeznek, nem pótágyazhatóak. Minden szobatípus a
+            recepció feletti főépületben helyezkedik el. Valamennyi szoba erkélyes, légkondicionáló, hűtőszekrény
+            (esetenként kis konyhasarok), televízió, széf tartozik a szobához. A fürdőszoba zuhanyzós, törölközővel és
+            hajszárítóval van felszerelve. A szobák 2018-ban lettek felújítva.</p>
+          <p><strong>Étkezés</strong><br>
+            Félpanzió, reggeli és vacsora büférendszerben a teraszos étteremben, amely a főépületben található a medence
+            mellett. A hotel tengerparti éttermében a ´la carte ebédet lehet fogyasztani.</p>
+          <p><strong>Tengerpart</strong><br>
+            A hotel mellett keskeny homoksáv húzódik, Laganas központi strandja 80 méterre kezdődik. A parton napágyak
+            és napernyők bérelhetők.</p>
+        </div>
+        </p>
+      </div>
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Abora Buenaventura by Lopesan Hotels - Gran Canaria</h1>
+          <h2 class="h1 font-weight-bold">305 170 Ft-tól<span class="text-small font-weight-normal ml-2"></span></h2>
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Teljes családi szobák
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Tengerpart: közvetlen a szálloda mellett
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Ellátás: félpanzió, all inclusive
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Hossz: 8 nap / 7 éj
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Esténként zene show a medencénél
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Utazás</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <a href="kanari1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="kanari1.jpg" class="img-fluid rounded">
+          </a>
+          <a href="kanari2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="kanari2.jpg" width="1024" height="623" class="img-fluid rounded">
+          </a>
+          <a href="kanari2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="kanari3.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+        <div class="row">
+          <a href="kanari4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="kanari4.jpg" class="img-fluid rounded">
+          </a>
+          <a href="kanari5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="kanari5.jpg" class="img-fluid rounded">
+          </a>
+          <a href="kanari5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="kanari6.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Hotel Hipotels Playa de Palma Palace - Mallorca</h1>
+          <h2 class="h1 font-weight-bold">402 115 Ft-tól<span class="text-small font-weight-normal ml-2"></span></h2>
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Családi szoba elérhető
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Tengerpart 300m-en belül
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Ellátás: teljes ellátás
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Naponkénti városi körút
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Hossz: 8 nap / 7 éj
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Utazás</a>
+        </div>
+      </div>
+      <div class="col-md-7 row justify-content-center align-self-center">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted"></span></h2>
+        <p class="lead">
+        <div class="field-item even">
+          <p><strong>Érkezési repülőtér:</strong><br>
+            Palma de Mallorca (PMI)</p>
+          <p><strong>Szobák:</strong><br>
+            Kertre/tengerre néző superior szoba: A superior szobák mindegyike erkéllyel kialakított. Légkondicionálóval,
+            tv-vel, mini hűtővel, fürdőszobával, és hajszárítóval felszerelt. Wifi internet kapcsolat térítés ellenében.
+            Maximum 3 fő részére foglalható.</p>
+          <p>Superior családi szoba: A superior családi szobák mindegyike erkéllyel, a gyerekek számára emeletese ággyal
+            kialakított. Légkondicionálóval, tv-vel, mini hűtővel, fürdőszobával, és hajszárítóval felszerelt. Maximum 4
+            fő részére foglalható.&nbsp;</p>
+          <p><strong>Ellátás:</strong><br>
+            All inclusive: reggeli, ebéd, vacsora, napközben tea, kávé, és snack a kijelölt helyeken a meghatározottot
+            időben.&nbsp;</p>
+          <p><strong>Szolgáltatások:</strong><br>
+            24 órás recepció, porta, ingyenes Wifi kapcsolat (gyorsabb hálózat felár ellenében), légkondicionálás/fűtés
+            a hotel teljes területén, ATM, törölközők térítésmentesen, autó/motor/bicikli kölcsönzés (felár ellenében),
+            központi széf, laptop/tablet (kérésre), mosoda (felár ellenében), orvosi ellátás (felár ellenében), mini
+            market, telefon és fax szolgáltatások, televízió szoba, ébresztés.</p>
+        </div>
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <a href="mallorca1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="mallorca1.jpg" class="img-fluid rounded">
+          </a>
+          <a href="mallorca2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="mallorca2.jpg" width="1024" height="623" class="img-fluid rounded">
+          </a>
+          <a href="mallorca3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="mallorca3.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+        <div class="row">
+          <a href="mallorca4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="mallorca4.jpg" class="img-fluid rounded">
+          </a>
+          <a href="mallorca5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="mallorca5.jpg" class="img-fluid rounded">
+          </a>
+          <a href="mallorca6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="mallorca6.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+      </div>
+      <!-- END -->
+    </div>
+    <hr class="featurette-divider">
+    <div class="row text-center align-items-end">
+      <h1 class="display-5 fw-bold" id="horvath">Horvátország</h1>
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Plavi Plava Laguna Hotel - Porec</h1>
+          <h2 class="h1 font-weight-bold">100 141 Ft-tól<span class="text-small font-weight-normal ml-2"></span></h2>
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Max 8 fő/szoba
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Tengerpart: 100 méteren belül
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Ellátás: önellátás, reggeli, félpanzió
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Hossz: 3-4 éjszakás turnusok
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>2 naponta búvár show
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Utazás</a>
+        </div>
+      </div>
+      <div class="col-md-7 row justify-content-center align-self-center">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted"></span></h2>
+        <p class="lead">
+        <div class="field-item even">
+          <p><strong>Fekvése:</strong><br>
+            A 212 szobás szálloda Poreč óvárosától 5 km-re, a zöld környezetben található Zelena Laguna üdülőtelepen fekszik.</p>
+          <p><strong>Szobák:</strong><br>
+            Kertre/tengerre néző superior szoba: A superior szobák mindegyike erkéllyel kialakított. Légkondicionálóval,
+            tv-vel, mini hűtővel, fürdőszobával, és hajszárítóval felszerelt. Wifi internet kapcsolat térítés ellenében.
+            Maximum 3 fő részére foglalható.</p>
+          <p><strong>Parkolás:</strong><br>
+          <p>helyszínen fizetendő kb. 1 EUR/nap</p>
+          <p><strong>Ellátás:</strong><br>
+            a hét minden napján reggeli, ebéd, vacsora, napközben tea, kávé, és snack a kijelölt helyeken a meghatározottot
+            időben.&nbsp;</p>
+          <p><strong>Szolgáltatások:</strong><br>
+            étterem, bár, Wi-Fi, ajándéküzlet, pénzváltó, széf a recepción, konferenciaterem, parkoló (1EUR/nap) és a Zelena Laguna üdülőtelep szolgáltatásai</p>
+        </div>
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <a href="porec1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="porec1.jpg" class="img-fluid rounded">
+          </a>
+          <a href="porec2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="porec2.jpg" width="1024" height="623" class="img-fluid rounded">
+          </a>
+          <a href="porec3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="porec3.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+        <div class="row">
+          <a href="porec4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="porec4.jpg" class="img-fluid rounded">
+          </a>
+          <a href="porec5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="porec5.jpg" class="img-fluid rounded">
+          </a>
+          <a href="porec6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="porec6.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="col-md-7 row justify-content-center align-self-center">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted"></span></h2>
+        <p class="lead">
+        <div class="field-item even">
+          <p><strong>Szállás leírása</strong><br>
+            A laganasi öbölben, a sziget leghosszabb, egybefüggő, széles, homokos tengerpartján fekszik. A háromszintes
+            főépületből és kerti/partmenti blokkból álló barátságos, tengerparti szálloda az üdülőváros csendesebb
+            részén fekszik. Laganas főutcája egy rövid sétával elérhető. A hoteltől 40 méterre bolt található. A
+            repülőtér 7 km-re fekszik.&nbsp;</p>
+          <p><strong>Szobák</strong><br>
+            Kétágyas szobák belső/utcai vagy tengeri kilátással rendelkeznek, nem pótágyazhatóak. Minden szobatípus a
+            recepció feletti főépületben helyezkedik el. Valamennyi szoba erkélyes, légkondicionáló, hűtőszekrény
+            (esetenként kis konyhasarok), televízió, széf tartozik a szobához. A fürdőszoba zuhanyzós, törölközővel és
+            hajszárítóval van felszerelve. A szobák 2018-ban lettek felújítva.</p>
+          <p><strong>Étkezés</strong><br>
+            Félpanzió, reggeli és vacsora büférendszerben a teraszos étteremben, amely a főépületben található a medence
+            mellett. A hotel tengerparti éttermében a ´la carte ebédet lehet fogyasztani.</p>
+          <p><strong>Tengerpart</strong><br>
+            A hotel mellett keskeny homoksáv húzódik, Laganas központi strandja 80 méterre kezdődik. A parton napágyak
+            és napernyők bérelhetők.</p>
+        </div>
+        </p>
+      </div>
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Hotel Park Plaza Arena - Pula</h1>
+          <h2 class="h1 font-weight-bold">109 752 Ft-tól<span class="text-small font-weight-normal ml-2"></span></h2>
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Max 6 fő/szoba
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>3 medence az udvaron
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Ellátás: saját rész
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Hossz: max 8 nap
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Esti disco/opera
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Utazás</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <a href="pula1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="pula1.jpg" class="img-fluid rounded">
+          </a>
+          <a href="pula2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="pula2.jpg" width="1024" height="623" class="img-fluid rounded">
+          </a>
+          <a href="pula3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="pula3.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+        <div class="row">
+          <a href="pula4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="pula4.jpg" class="img-fluid rounded">
+          </a>
+          <a href="pula5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="pula5.jpg" class="img-fluid rounded">
+          </a>
+          <a href="pula6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="pula6.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Hotel As - Split
+          </h1>
+          <h2 class="h1 font-weight-bold">194 233 Ft-tól<span class="text-small font-weight-normal ml-2"></span></h2>
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Családi szoba elérhető/max 5 fő
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Közvetlenül a tengerparton
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Ellátás: önellátás, reggeli, félpanzió
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Teljes étkeztetés
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Ingyenes billiárd és pinpong
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Utazás</a>
+        </div>
+      </div>
+      <div class="col-md-7 row justify-content-center align-self-center">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted"></span></h2>
+        <p class="lead">
+        <div class="field-item even">
+          <p><strong>Fekvése:</strong><br>
+            A hotel közvetlen a tengerparton fekszik, 50 kilométerre a repülőtértől, 1.5 kilométerre Lindostól és 45
+            kilométerre Rodosz városától. A legközelebbi buszmegálló 200 méterre található a szállodától.</p>
+          <p><strong>Szobák:</strong><br>
+            klíma, műholdas TV,  telefon, internet, minibár, fürdőszoba hajszárítóval</p>
+          <p>Superior családi szoba: A superior családi szobák mindegyike erkéllyel, a gyerekek számára emeletese ággyal
+            kialakított. Légkondicionálóval, tv-vel, mini hűtővel, fürdőszobával, és hajszárítóval felszerelt. Maximum 4
+            fő részére foglalható.&nbsp;</p>
+          <p><strong>Ellátás:</strong><br>
+            All inclusive: reggeli, ebéd, vacsora, napközben tea, kávé, és snack a kijelölt helyeken a meghatározottot
+            időben.&nbsp;</p>
+          <p><strong>Szolgáltatások:</strong><br>
+            a la carte étterem, bár, Wi-Fi, széf a recepción, pénzváltó, parkoló (szabad helyek függvényében)</p>
+        </div>
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <a href="split1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="split1.jpg" class="img-fluid rounded">
+          </a>
+          <a href="split2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="split2.jpg" width="1024" height="623" class="img-fluid rounded">
+          </a>
+          <a href="split3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="split3.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+        <div class="row">
+          <a href="split4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="split4.jpg" class="img-fluid rounded">
+          </a>
+          <a href="split5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="split5.jpg" class="img-fluid rounded">
+          </a>
+          <a href="split6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="split6.jpg" class="img-fluid rounded">
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <p class="lead mb-10" id="kapcs"><strong>Remélyük megtalálta a számára ideális utazást, ha bármiféle broblémája akadt keressen a toptrip@gmail.com email címen vagy +380955116184 telefonszámon</strong></p>
+</body>

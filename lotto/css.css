@@ -1,0 +1,93 @@
+﻿body {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 2rem;
+}
+#ha{
+    width:100%;
+   
+}
+
+td {
+    width: 1000px;
+}
+#jaa{
+    width:30%;
+    background-color:dimgray;
+    height: 500px;
+   
+}
+
+li {
+    height: 50px;
+    background-color: dimgray;
+    color:dimgray;
+}
+iframe {
+    width: 100%;
+    height: 900px;
+}
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  hr {
+    width: 600px;
+    margin:0 auto;
+}
+div {
+  max-width: 600px;
+}
+
+span {
+  display: inline-block;
+  background-color: #006100;
+  width: 140px;
+  height: 140px;
+}
+
+.table {
+ display: table;
+}
+
+.row {
+ display: table-row;
+}
+
+.cell {
+ display: table-cell;
+}
+
+.row,
+.cell {
+padding: 10px;
+}
+.taboolaH2 {
+  text-transform: none;
+  font-size: 30px !important;
+  font-family: georgia !important;
+  color: #3f3f3f;
+  font-weight: bold;
+  line-height: 34px;
+  margin-bottom: 15px;
+}
